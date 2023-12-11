@@ -1,0 +1,19 @@
+{
+  "name": "zahra-dhafin-invitation",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./style.css -o ./globals.css --watch",
+    "dev": "concurrently \"vite\" \"npm run tailwind\"",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "daisyui": "^4.4.19",
+    "prettier": "^3.1.1",
+    "prettier-plugin-tailwindcss": "^0.5.9",
+    "tailwindcss": "^3.3.6",
+    "vite": "^5.0.0"
+  }
+}
